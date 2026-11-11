@@ -27,7 +27,7 @@ never creates or changes a skill without your yes.
 Build the package and upload it in the claude.ai skills settings:
 
 ```bash
-cd session-to-skill && zip -r ../session-to-skill.skill . && cd ..
+zip -r session-to-skill.skill session-to-skill
 ```
 
 ### Credits
