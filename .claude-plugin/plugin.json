@@ -1,0 +1,9 @@
+{
+  "name": "self-learning-skills",
+  "version": "0.3.0",
+  "description": "Lets Claude learn from its own sessions: turns the lessons of a chat into a new skill or an update to an existing one.",
+  "author": { "name": "EngDawood" },
+  "repository": "https://github.com/EngDawood/claude-self-learning-skills",
+  "license": "MIT",
+  "keywords": ["skills", "continuous-learning", "retrospective"]
+}

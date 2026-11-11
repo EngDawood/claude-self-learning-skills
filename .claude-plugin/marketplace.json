@@ -1,0 +1,11 @@
+{
+  "name": "claude-self-learning-skills",
+  "owner": { "name": "EngDawood" },
+  "plugins": [
+    {
+      "name": "self-learning-skills",
+      "source": "./",
+      "description": "Turns the lessons of a chat into a new skill or an update to an existing one."
+    }
+  ]
+}

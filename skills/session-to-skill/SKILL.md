@@ -7,7 +7,7 @@ description: >-
   they own just gave a wrong or outdated result. Offer it in one line when a task ends after
   real trial and error, repeated user corrections, or a workflow the user will repeat.
 metadata:
-  version: "0.2.0"
+  version: "0.3.0"
 ---
 
 # Session to Skill
@@ -100,6 +100,9 @@ it can skip its interview:
 Generalize the brief: replace this session's file names, topics, and data with placeholders,
 unless the skill is about this specific project. Replace secrets, private links, and details
 about third parties with `<PLACEHOLDER>`.
+
+When the `writing-for-agents` skill is available, apply it to the draft before packaging:
+one trigger per case in the description, a leading word, and a "Done when" on every step.
 
 Without `skill-creator`, write the `SKILL.md` yourself: frontmatter with `name` and
 `description`, then instructions under 200 lines.
