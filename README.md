@@ -21,6 +21,17 @@ Say any of these in a chat:
 Claude may also offer it once, in one line, after a task that took real trial and error. It
 writes only what you approve.
 
+### Self-learning footer
+
+Every skill that `session-to-skill` creates or updates ends with a short "After each run"
+section. After a task, that skill checks for a real lesson and proposes up to 3 edits to
+itself, applied only after you approve. To add it to a skill you already have, paste
+[`skills/session-to-skill/self-learning-footer.md`](skills/session-to-skill/self-learning-footer.md)
+at the end of its `SKILL.md`.
+
+It runs when the skill's task ends, not when the chat closes. On claude.ai, installed skills
+are read-only, so approved edits come back as an updated skill to re-upload.
+
 ## Install
 
 Claude Code:
@@ -38,6 +49,8 @@ zip of the repository as a plugin.
 .claude-plugin/plugin.json        plugin manifest
 .claude-plugin/marketplace.json   lets the repo be installed as a marketplace
 skills/session-to-skill/SKILL.md  the skill
+skills/session-to-skill/self-learning-footer.md
+                                  footer added to each skill it writes
 ```
 
 ## Credits
