@@ -7,7 +7,7 @@ description: >-
   they own just gave a wrong or outdated result. Offer it in one line when a task ends after
   real trial and error, repeated user corrections, or a workflow the user will repeat.
 metadata:
-  version: "0.3.0"
+  version: "0.4.0"
 ---
 
 # Session to Skill
@@ -103,6 +103,11 @@ about third parties with `<PLACEHOLDER>`.
 
 When the `writing-for-agents` skill is available, apply it to the draft before packaging:
 one trigger per case in the description, a leading word, and a "Done when" on every step.
+
+Footer: end every created or updated skill with the contents of `self-learning-footer.md`
+from this skill's folder, copied verbatim, so the skill proposes its own fixes after each run.
+When updating a skill that already has an "After each run" section, keep it as it is. Skip the
+footer only if the user says no.
 
 Without `skill-creator`, write the `SKILL.md` yourself: frontmatter with `name` and
 `description`, then instructions under 200 lines.
