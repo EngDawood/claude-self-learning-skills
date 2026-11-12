@@ -48,8 +48,9 @@ zip of the repository as a plugin.
 ```
 .claude-plugin/plugin.json        plugin manifest
 .claude-plugin/marketplace.json   lets the repo be installed as a marketplace
-skills/session-to-skill/SKILL.md                 the skill
-skills/session-to-skill/self-learning-footer.md  footer added to each skill
+skills/session-to-skill/SKILL.md  the skill
+skills/session-to-skill/self-learning-footer.md
+                                  footer added to each skill it writes
 ```
 
 ## Credits
